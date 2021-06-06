@@ -1,4 +1,5 @@
 import discord
+from discord.ext import commands
 import os
 import requests
 import asyncio
@@ -57,5 +58,10 @@ async def on_ready():
             check = False
 
         await asyncio.sleep(30)
+
+
+@bot.command()
+async def 으으미(ctx):
+    await ctx.send("이뻐요")
 
 client.run(os.environ['token'])
