@@ -5,6 +5,7 @@ import requests
 import asyncio
 from json import loads
 
+
 twitch_Client_ID = 'f1o23oh5jcoo6rcha25bs2v6nt3z7e'
 twitch_Client_secret = 'mtm6xp8b20dma9fg7r1t94po2m4688'
 
@@ -15,9 +16,9 @@ twitchID = 'nrmtzv'
 ment = '아아 마이크 테스트 마이크 테스트'
 
 
-client = discord.Client()
+bot = commands.Bot(command_prefix='@')
 
-@client.event
+@bot.event
 async def on_ready():
     print(client.user.id)
     print("ready")
