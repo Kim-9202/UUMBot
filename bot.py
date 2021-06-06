@@ -58,4 +58,4 @@ async def on_ready():
 
         await asyncio.sleep(30)
 
-client.run(discord_Token)
+client.run(os.environ['token'])
