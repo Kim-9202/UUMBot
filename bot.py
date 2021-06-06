@@ -6,7 +6,6 @@ from json import loads
 
 twitch_Client_ID = 'f1o23oh5jcoo6rcha25bs2v6nt3z7e'
 twitch_Client_secret = 'mtm6xp8b20dma9fg7r1t94po2m4688'
-discord_Token = 'ODUwODc2OTI0OTAxMDY0NzA0.YLwG4w.71jqk2WnkLAuM_99FFsM5PCj1jA'
 
 
 discord_channelID = 825065746245615668
